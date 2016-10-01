@@ -1,0 +1,21 @@
+CREATE TABLE comments
+(
+  login      TEXT NOT NULL,
+  id         BIGINT unsigned NOT NULL,
+  commented_repo  LONGTEXT,
+  avatar_url      MEDIUMTEXT,
+  gravatar_id     MEDIUMTEXT,
+  followers_url   MEDIUMTEXT,
+  following_url   MEDIUMTEXT,
+  gists_url        MEDIUMTEXT, 
+  starred_url       MEDIUMTEXT,
+  subscriptions_url     MEDIUMTEXT,
+  organizations_url     MEDIUMTEXT,
+  repos_url             MEDIUMTEXT,
+  events_url            MEDIUMTEXT,
+  received_events_url       MEDIUMTEXT,
+  type                  MEDIUMTEXT,
+  body                  LONGTEXT,
+  PRIMARY KEY     (id) 
+  
+);
