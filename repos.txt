@@ -1,1 +1,2 @@
-https://api.github.com/repos/twbs/bootstrap/comments
+https://api.github.com/repos/shogun-toolbox/shogun/pulls/comments
+https://api.github.com/repos/shogun-toolbox/shogun/pulls/comments?state=closed

@@ -1,0 +1,43 @@
+CREATE TABLE pullRequestComments
+(
+  login      TEXT NOT NULL,
+  id         BIGINT unsigned NOT NULL,
+  commented_repo  LONGTEXT,
+  followers_url   MEDIUMTEXT,
+  following_url   MEDIUMTEXT,
+  num_followers     BIGINT unsigned,
+  num_following     BIGINT unsigned,
+  num_gists        BIGINT unsigned, 
+  num_starred       BIGINT unsigned,
+  num_subscriptions     BIGINT unsigned,
+  num_organizations     BIGINT unsigned,
+  num_repos             BIGINT unsigned,
+  num_events_done            BIGINT unsigned,
+  num_received_events       MEDIUMTEXT,
+  body                  LONGTEXT,
+  PRIMARY KEY     (id) 
+  
+);
+
+
+CREATE TABLE pullRequests
+(
+    id              BIGINT unsigned NOT NULL AUTO_INCREMENT, # Unique ID for the record
+  login      TEXT NOT NULL,
+  userid         BIGINT unsigned NOT NULL,
+
+  pull_request_id BIGINT unsigned NOT NULL,
+  commented_repo  LONGTEXT,
+  body                  LONGTEXT,
+  pull_request_Status    TEXT NOT NULL,
+  pull_request_created_date DATETIME,
+  pull_request_closed_date  DATETIME,
+  pull_request_merged_date  DATETIME,
+  PRIMARY KEY     (id) 
+  
+);
+
+
+thingst to add in the new database
+1)pull request id
+
