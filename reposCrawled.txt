@@ -1,2 +1,8 @@
-https://api.github.com/repos/twbs/bootstrap/comments
-https://api.github.com/repos/tensorflow/tensorflow/comments
+https://api.github.com/repos/tensorflow/tensorflow/pulls/comments
+https://api.github.com/repos/tensorflow/tensorflow/pulls/comments?state=closed
+https://api.github.com/repos/django/django/pulls/comments
+https://api.github.com/repos/nodejs/node/pulls/comments
+https://api.github.com/repos/mrdoob/three.js/pulls/comments
+https://api.github.com/repos/Theano/Theano/pulls/comments
+https://api.github.com/repos/twbs/bootstrap/pulls/comments?state=all
+scikit learn only 1 oage of comments closed

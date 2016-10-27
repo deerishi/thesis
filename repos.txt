@@ -1,2 +1,2 @@
-https://api.github.com/repos/shogun-toolbox/shogun/pulls/comments
-https://api.github.com/repos/shogun-toolbox/shogun/pulls/comments?state=closed
+https://api.github.com/repos/jquery/jquery/pulls/comments
+https://api.github.com/repos/nltk/nltk/pulls/comments

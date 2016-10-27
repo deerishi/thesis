@@ -1,0 +1,3 @@
+start from https://api.github.com/repositories/1555094/pulls/comments?state=closed%3Faccess_token%3D6fca6b10547db86c496e728cde80b715f7e4099a&per_page=300&page=10
+almost done https://api.github.com/repos/shogun-toolbox/shogun/pulls/comments
+done now
